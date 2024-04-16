@@ -10,7 +10,7 @@ module.exports = {
   permissions: "0x0000000000000800",
   options: [{
     name: 'name',
-    description: 'Type the name of the music you want to play.',
+    description: 'Search the song you wish to play via YouTube.',
     type: ApplicationCommandOptionType.String,
     required: true
   }],
