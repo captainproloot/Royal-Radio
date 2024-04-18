@@ -12,7 +12,7 @@ module.exports = {
       options: [
         {
           name: "name",
-          description: "Write your music name.",
+          description: "Type your song name & artist.",
           type: ApplicationCommandOptionType.String,
           required: true
         }
@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: "playlist",
-      description: "Write your playlist name.",
+      description: "Create your playlist name.",
       type: ApplicationCommandOptionType.Subcommand,
       options: [
         {
