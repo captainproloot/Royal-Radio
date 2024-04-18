@@ -67,7 +67,7 @@ module.exports = {
           .setCustomId('cancel')
       );
 
-      embed.setDescription(`${maxTracks.map((song, i) => `**${i + 1}**. [${song.name}](${song.url}) | \`${song.uploader.name}\``).join('\n')}\n\n✨Choose a song from below!!`);
+      embed.setDescription(`${maxTracks.map((song, i) => `**${i + 1}**. [${song.name}](${song.url}) | \`${song.uploader.name}\``).join('\n')}\n\n✨Select a song from below!!`);
 
       let code;
       if (buttons1 && buttons2) {
